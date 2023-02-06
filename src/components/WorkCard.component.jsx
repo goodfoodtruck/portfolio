@@ -9,7 +9,7 @@ const WorkCard = (props) => {
                 <a className="Link" href={props.link} target="_blank" rel="noreferrer">
                     <img
                         alt={props.title}
-                        src={props.github ? "/img/icons/github.icon.png" : "/img/icons/link.icon.png"}
+                        src={props.github ? "img/icons/github.icon.png" : "img/icons/link.icon.png"}
                     />
                 </a>
             </div>

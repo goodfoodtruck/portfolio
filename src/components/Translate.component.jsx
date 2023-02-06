@@ -21,7 +21,7 @@ const Translate = () => {
             onClick={() => changeLanguage()}
         >
             <h4 className="Title">{t('home.language')}</h4>
-            <img alt="Translate" className="Icon" src="/img/icons/translation.icon.png" />
+            <img alt="Translate" className="Icon" src="img/icons/translation.icon.png" />
         </div>
     )
 }

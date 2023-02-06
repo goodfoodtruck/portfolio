@@ -43,13 +43,13 @@ const Home = () => {
                     <a href="https://github.com/goodfoodtruck" target="_blank" rel="noreferrer">
                         <img
                             alt="github"
-                            src="/img/icons/github.icon.png"
+                            src="img/icons/github.icon.png"
                         />
                     </a>
                     <div>
                         <img
                             alt="email"
-                            src="/img/icons/email.icon.png"
+                            src="img/icons/email.icon.png"
                             onClick={() => copyToClipboard("martiniclement@protonmail.com")}
                             onMouseEnter={e => showBox(e)}
                             onMouseLeave={e => hideBox(e)}
@@ -62,7 +62,7 @@ const Home = () => {
                     <a href="https://www.linkedin.com/in/cl%C3%A9ment-martini-23235021a/" target="_blank" rel="noreferrer">
                         <img
                             alt="linkedin"
-                            src="/img/icons/linkedin.icon.png"
+                            src="img/icons/linkedin.icon.png"
                         />
                     </a>
                 </div>
