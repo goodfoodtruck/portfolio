@@ -1,0 +1,27 @@
+.Skills {
+    width: 100%;
+    margin-bottom: 15em;
+
+    .SkillsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: "Rubik", sans-serif;
+
+        .Skill {
+            display: flex;
+            align-content: center;
+            margin: 1em;
+
+            .Logo {
+                width: 25px;
+                height: 25px;
+            }
+
+            span {
+                margin-left: 0.3em;
+                margin-block: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+$breakpoint-small: 600px;
+
+.Home {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+    .Container {
+        width: 25em;
+        margin: auto;
+        text-align: center;
+        font-size: 1.1em;
+
+        @media screen and (max-width: $breakpoint-small) {
+            width: auto;
+            font-weight: bold;
+            border: none;
+            box-shadow: none;
+            background-color: transparent;
+        }
+
+        .Wave {
+            display: inline-block;
+            animation-name: waving;
+            animation-duration: 2.5s;
+            animation-iteration-count: infinite;
+            transform-origin: 70% 70%;
+
+            @keyframes waving {
+                0% { transform: rotate( 0.0deg) }
+                10% { transform: rotate(14.0deg) }
+                20% { transform: rotate(-8.0deg) }
+                30% { transform: rotate(14.0deg) }
+                40% { transform: rotate(-4.0deg) }
+                50% { transform: rotate(10.0deg) }
+                60% { transform: rotate( 0.0deg) }
+                100% { transform: rotate( 0.0deg) }
+            }
+
+            @media screen and (max-width: $breakpoint-small) {
+                animation: none;
+            }
+        }
+
+        .Contacts {
+            position: relative;
+            display: inline-flex;
+            border: 1px solid rgb(230, 230, 230);
+            padding: 0.7em;
+            border-radius: 40px;
+
+            @media screen and (max-width: $breakpoint-small) {
+                border: none;
+            }
+
+            a {
+                display: contents;
+            }
+        
+            img {
+                width: 40px;
+                height: 40px;
+                margin-inline: 1.8em;
+                cursor: pointer;
+                transition: opacity 0.1s linear;
+
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+  
+            .Box {
+                position: absolute;
+                padding: 0.2em 0.5em;
+                bottom: 90%;
+                right: 50%;
+                transform: translateX(50%);
+                border-radius: 8px;
+                background-color: black;
+                color: white;
+                font-family: "Prompt";
+                font-size: 0.7em;
+                transition: opacity 0.1s linear;
+            
+                &.copied {
+                    background-color: rgb(98, 194, 98)
+                }
+
+                .arrow {
+                    position: absolute;
+                    width: 0; 
+                    height: 0;
+                    left: 50%;
+                    transform: translateX(-50%); 
+                    border-left: 0.7em solid transparent;
+                    border-right: 0.7em solid transparent;
+                    border-top: 0.8em solid black;
+        
+                    &.copied {
+                        border-top: 0.8em solid rgb(98, 194, 98)
+                    }
+                }
+            }
+        }
+    }
+
+    .Translate {
+        position: absolute;
+        margin: 1em;
+        font-size: 1.5em;
+        cursor: pointer;
+
+        .Icon {
+            position: absolute;
+            width: 90px;
+            margin-inline: auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.2;
+        }
+    }
+}

@@ -1,0 +1,92 @@
+$breakpoint-small: 890px;
+
+.About {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .Abouts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        max-width: 80%;
+
+        @media screen and (max-width: $breakpoint-small) {
+            display: block;
+        }
+
+        .Container {
+            display: flex;
+            align-items: center;
+            max-width: 30vw;
+            min-width: 30vw;
+            height: 6.5em;
+            margin: 1em;
+            transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+            cursor: pointer;
+
+            @media screen and (max-width: $breakpoint-small) {
+                max-width: 70vw;
+                height: auto;
+                margin: 2em auto;
+            }
+
+            .Label {
+                padding: 1em;
+                
+                h3, p {
+                    margin: 0;
+                }
+            }
+
+            .Text {
+                display: none;
+            }
+
+            .Icon {
+                margin-block: auto;
+            }
+
+            &:hover {
+                transform: translateY(-5%);
+                box-shadow: 5px 10px 20px rgb(211, 211, 211),
+                -5px 10px 20px rgb(211, 211, 211);
+                z-index: 3;
+
+                @media screen and (max-width: $breakpoint-small) {
+                    transform: none;
+                }
+            }
+        
+            &:active {
+                transform: translateY(-2.5%);
+                filter: brightness(0.8);
+
+                @media screen and (max-width: $breakpoint-small) {
+                    transform: scale(0.95);
+                }
+            }
+    
+        }
+    
+        .Active {
+            height: auto !important;
+            z-index: 2;
+            flex-direction: column;
+            text-align: center;
+
+            .Label {
+                p {
+                    display: none;
+                }
+            }
+    
+            .Text {
+                display: block;
+            }
+        }
+    }
+}
