@@ -50,6 +50,11 @@ export const TRANSLATION_EN = {
             summary: "School Project",
             text: "This a group project in which we were around twelve to realize an online 3D environment where we can enter and walk in as an avatar. It allowed me to discover the WebSocket protocol and the TypeScript library, as well as to get more familiar with React and three.js."
         },
+        sauvegarde: {
+            title: "Sauvegarde",
+            summary: "Personal Project",
+            text: "In development, a Letterboxd inspired website to review games. The back-end is developed in Typescript with Node and Express"
+        },
         retech: {
             title: "Re-tech",
             summary: "School Project",

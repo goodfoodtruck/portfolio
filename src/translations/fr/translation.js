@@ -50,6 +50,11 @@ export const TRANSLATION_FR = {
             summary: "Projet Universitaire",
             text: "C'est un projet de groupe dans lequel nous étions une douzaine à réaliser un environnement 3D où l'on peut se connecter à plusieurs en même temps et se balader sous la forme d'avatar. Il m'a permis de me découvrir le protocole WebSocket et la librairie TypeScript, ainsi que de me familiariser plus avec React et three.js."
         },
+        sauvegarde: {
+            title: "Sauvegarde",
+            summary: "Projet Personnel",
+            text: "En développement, un site inspiré par Letterboxd pour review des jeux. Le back-end est développé en Typescript avec Node et Express"
+        },
         retech: {
             title: "Re-tech",
             summary: "Projet Universitaire",
@@ -57,7 +62,7 @@ export const TRANSLATION_FR = {
         },
         mana: {
             title: "Mana",
-            summary: "Projet personnel",
+            summary: "Projet Personnel",
             text: "En développement, un jeu de combat tour par tour multijoueur. Le front-end est développé en React avec TypeScript et le back-end avec Node. Je voulais essayer d'utiliser mes compétences pour travailler seul sur ce que j'ai vu durant ma licence et mieux comprendre comment réaliser une interface utilisateur concise et accessible."
         }
     }
