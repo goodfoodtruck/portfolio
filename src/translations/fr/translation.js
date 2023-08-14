@@ -31,7 +31,7 @@ export const TRANSLATION_FR = {
         }
     },
     skills: {
-        title: "Compétences"
+        title: "Compétences & Intérêts"
     },
     work: {
         title: "Projets & Experiences",
@@ -64,6 +64,11 @@ export const TRANSLATION_FR = {
             title: "Mana",
             summary: "Projet Personnel",
             text: "En développement, un jeu de combat tour par tour multijoueur. Le front-end est développé en React avec TypeScript et le back-end avec Node. Je voulais essayer d'utiliser mes compétences pour travailler seul sur ce que j'ai vu durant ma licence et mieux comprendre comment réaliser une interface utilisateur concise et accessible."
+        },
+        breakcore: {
+            title: "Breakcore Gamepad",
+            summary: "Projet Personnel",
+            text: "Découverte de l'API Gamepad avec Javascript, permet de jouer de la musique avec un contrôleur depuis l'application web."
         }
     }
 };

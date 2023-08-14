@@ -61,6 +61,10 @@ const Skills = () => {
                     <span className="Label">Symfony</span>
                 </div>
                 <div className="Skill" data-aos="fade-up" data-aos-delay="1400" data-aos-once="true">
+                    <img className="Logo" alt="Rust" src="img/icons/frameworks/rust.icon.png" />
+                    <span className="Label">Rust</span>
+                </div>
+                <div className="Skill" data-aos="fade-up" data-aos-delay="1500" data-aos-once="true">
                     <img className="Logo" alt="Solidity" src="img/icons/frameworks/solidity.icon.png" />
                     <span className="Label">Solidity</span>
                 </div>

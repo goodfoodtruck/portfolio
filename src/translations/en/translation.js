@@ -31,7 +31,7 @@ export const TRANSLATION_EN = {
         }
     },
     skills: {
-        title: "Skills"
+        title: "Skills & Interests"
     },
     work: {
         title: "Works & Experiences",
@@ -64,6 +64,11 @@ export const TRANSLATION_EN = {
             title: "Mana",
             summary: "Personal Project",
             text: "In development, a multiplayer turn-based combat game. The front-end is developed in React with TypeScript and the back-end with Node. I wanted to try to use my skills to work alone on what I learned during my bachelor's degree and better understand how to make a good comprehensive and accessible user interface."
+        },
+        breakcore: {
+            title: "Breakcore Gamepad",
+            summary: "Personal Project",
+            text: "Discovered the Gamepad API with Javascript, allowing you to play music with a controller within the web application."
         }
     }
 };

@@ -50,6 +50,13 @@ const Work = () => {
                         github={true}
                     />
                     <WorkCard
+                        title={t("work.breakcore.title")}
+                        date="2023"
+                        summary={t("work.breakcore.summary")}
+                        text={t("work.breakcore.text")}
+                        link="https://goodfoodtruck.github.io/breakcore-gamepad/"
+                    />
+                    <WorkCard
                         title={t("work.mana.title")}
                         date="2023"
                         summary={t("work.mana.summary")}
